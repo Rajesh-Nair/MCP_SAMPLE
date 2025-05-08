@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+      "weather": {
+        "command": "uv",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "C:\\Study\\Myprojects\\AgenticAI\\MCP_Sample\\server\\weather.py"
+        ]
+      }
+    }
+  }
