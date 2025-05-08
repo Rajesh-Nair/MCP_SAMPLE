@@ -39,7 +39,7 @@ This repository demonstrates the implementation of a Model-Controller-Prompt (MC
 
 #### Basic MCP Server
 ```bash
-# Start the weather MCP server
+# Test the weather MCP server (using MCP Inspector)
 uv run mcp dev server/weather.py
 
 # Install MCP server to Claude Desktop
@@ -50,6 +50,13 @@ uv run mcp install server/weather.py
 ```bash
 # Run the interactive MCP client
 uv run server/client.py
+```
+
+#### MCP Server and Client using stdio / sse
+```bash
+# Run the MCP client and server
+uv run mcpserver/server.py
+uv run mcpserver/client-sse.py
 ```
 
 #### Docker Deployment
